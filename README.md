@@ -21,7 +21,7 @@ Traditional banking and financial apps often suffer from:
 - Lack of transparency in user transactions.
 - Limited real-time logging and auditability.
 
-**PeerFlow** solves this by:
+**NovaBank** solves this by:
 - Allowing instant deposits (form-based).
 - Enabling cross-currency transfers with exchange rate logic.
 - Recording every transaction and balance change in real-time.
@@ -113,7 +113,7 @@ Traditional banking and financial apps often suffer from:
 
 ---
 
-### ✅🔐 PeerFlow – Table Constraints Overview
+### ✅🔐 NovaBank – Table Constraints Overview
 
 | **Table**         | **Attribute**          | **Constraint**                                             |
 |-------------------|------------------------|------------------------------------------------------------|
@@ -155,7 +155,7 @@ This section explains how the PeerFlow database satisfies the three main stages 
 - `EXCHANGERATES` contains one row per currency pair.
 - `ACCOUNTS_LOG` logs one row per balance update.
 
-✅ **All PeerFlow tables store atomic values and have primary keys** → Satisfies 1NF.
+✅ **All NovaBank tables store atomic values and have primary keys** → Satisfies 1NF.
 
 ---
 
@@ -179,7 +179,7 @@ This section explains how the PeerFlow database satisfies the three main stages 
 - Must be in 2NF.
 - No **transitive dependencies**: non-key attributes should not depend on other non-key attributes.
 
-**How PeerFlow Meets 3NF:**
+**How NovaBank Meets 3NF:**
 
 | Table           | Explanation |
 |------------------|-------------|
