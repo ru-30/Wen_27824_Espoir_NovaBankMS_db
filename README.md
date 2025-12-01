@@ -1,1 +1,1 @@
-# -NovaBank – Peer-to-Peer Currency Transfer System
+# NovaBank – Peer-to-Peer Currency Transfer System
