@@ -16,6 +16,8 @@ An Oracle-based backend project that enables users to deposit, withdraw, and tra
 
 Managing peer-to-peer transactions across different currencies is challenging. Users often struggle with manual conversions, high transfer fees, and delays in traditional banking systems.
 
+## Key Objectives
+
 Traditional banking and financial apps often suffer from:
 - Manual currency conversion delays.
 - Lack of transparency in user transactions.
